@@ -96,7 +96,7 @@ jobs:
             -d '{
               "event_type": "app-deployment-request",
               "client_payload": {
-                "app_name": "k8s-web-app-php",
+                "app_name": "docker-sonarqube",
                 "version": "${{ github.sha }}",
                 "repository": "${{ github.repository }}",
                 "ref": "${{ github.ref_name }}",
